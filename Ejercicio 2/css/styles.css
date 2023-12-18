@@ -1,0 +1,38 @@
+body{
+    font-family: 'Mulish', 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 50pt;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+.card-title{
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 10pt;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .card-title{
+        font-size: 15pt;
+    }
+
+    .card-text{
+        font-size: 10pt;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .card-title{
+        font-size: 1rem;
+    }
+
+    .card-text{
+        font-size: .7rem;
+    }
+}
